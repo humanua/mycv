@@ -2,8 +2,15 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div>
-      Hello World!!! <Link href="/about">About</Link>
-    </div>
+    <main>
+      <section>
+        <div className="container">
+          <div className="grid grid-cols-1 xl:grid-cols-2">
+            <div>1</div>
+            <div>2</div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
